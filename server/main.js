@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 require('./db/mongoConnect');
 app.use("/api/products", productsRouter);
-app.listen("8001",()=>{
+app.listen("8000",()=>{
   console.log("connect server")
 });
 console.log("Hi!!");
